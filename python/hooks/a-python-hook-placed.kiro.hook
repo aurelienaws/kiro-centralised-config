@@ -1,0 +1,14 @@
+{
+  "name": "A python hook",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "Run linter whenever a TypeScript file is saved",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.ts", "*.tsx"]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm run lint"
+  }
+}
