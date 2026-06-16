@@ -9,6 +9,6 @@
   },
   "then": {
     "type": "runCommand",
-    "command": "npm run lint"
+    "command": "npm run lint updated"
   }
 }
